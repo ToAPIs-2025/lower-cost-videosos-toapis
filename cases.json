@@ -1,0 +1,129 @@
+[
+  {
+    "project": "VideoSOS",
+    "date": "2026-10-22",
+    "kind": "image",
+    "model": "gpt-image-2-vip",
+    "parameters": {
+      "model": "gpt-image-2-vip",
+      "n": 1,
+      "size": "1:1",
+      "resolution": "1K",
+      "quality": "low"
+    },
+    "pricing": {
+      "model": "gpt-image-2-vip",
+      "type": "image",
+      "conditions": {
+        "resolution": "1K",
+        "n": 1,
+        "input_image_count": 0,
+        "quality": "low"
+      },
+      "currency": "USD",
+      "unit": "request",
+      "price_basis": "request",
+      "charge_type": "per_request",
+      "maximum_unit_price": "0.0019",
+      "prices": [
+        {
+          "charge_type": "per_request",
+          "conditions": {
+            "quality": "low",
+            "resolution": "1K"
+          },
+          "group": "default",
+          "price_basis": "request",
+          "unit": "request",
+          "unit_price": "0.0019"
+        }
+      ],
+      "queried_at": "2026-10-22T06:56:04.459352+00:00",
+      "is_final_charge": false
+    },
+    "estimated_usd": "0.0019",
+    "status": "completed",
+    "cost": {
+      "model": "gpt-image-2-vip",
+      "billing_status": "unavailable",
+      "actual_cost_usd": null,
+      "actual_credits": null
+    },
+    "file": "assets/gpt-image-2-vip-2935dc2fec.png",
+    "native_application_verified": false,
+    "validation_scope": "Shared standalone API generation and media-boundary validation, not native application acceptance",
+    "is_actual_charge": false,
+    "case_price_usd": "0.0019",
+    "price_basis": "Same-key quotation; actual settlement unavailable",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "project": "VideoSOS",
+    "date": "2026-10-22",
+    "kind": "video",
+    "model": "seedance-2-mini",
+    "parameters": {
+      "model": "seedance-2-mini",
+      "duration": 4,
+      "resolution": "480p",
+      "aspect_ratio": "16:9",
+      "generate_audio": false
+    },
+    "pricing": {
+      "model": "seedance-2-mini",
+      "type": "video",
+      "conditions": {
+        "duration": 4,
+        "resolution": "480p",
+        "has_video_input": false,
+        "has_image_input": true,
+        "has_audio_input": false,
+        "input_image_count": 1,
+        "output_format": "mp4",
+        "generate_audio": false
+      },
+      "currency": "USD",
+      "unit": "1m_tokens",
+      "price_basis": "total_tokens",
+      "charge_type": "per_token",
+      "maximum_unit_price": "3.285714",
+      "prices": [
+        {
+          "charge_type": "per_token",
+          "conditions": {
+            "duration": "4s",
+            "has_video_input": false,
+            "resolution": "480p"
+          },
+          "group": "default",
+          "price_basis": "total_tokens",
+          "unit": "1m_tokens",
+          "unit_price": "3.285714"
+        }
+      ],
+      "queried_at": "2026-10-22T06:56:05.653091+00:00",
+      "is_final_charge": false
+    },
+    "estimated_usd": "0.1261714176",
+    "status": "completed",
+    "cost": {
+      "model": "seedance-2-mini",
+      "billing_status": "settled",
+      "actual_cost_usd": "0.13338",
+      "actual_credits": "26.676"
+    },
+    "file": "assets/seedance-2-mini-25806fec8e.mp4",
+    "native_application_verified": false,
+    "validation_scope": "Shared standalone API generation and media-boundary validation, not native application acceptance",
+    "is_actual_charge": true,
+    "case_price_usd": "0.13338",
+    "price_basis": "API billing=settled",
+    "seconds": "4.04",
+    "width": 864,
+    "height": 496,
+    "fully_decoded": true,
+    "actual_usd_per_second": "0.03301485148514851485148514851",
+    "preview": "assets/seedance-2-mini-25806fec8e.jpg"
+  }
+]
